@@ -1,0 +1,108 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.abuelo{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black;
+   border-radius: 20px;
+   height:40em;
+  width: 500px;
+  text-align: center;
+  margin-top: 10px;
+  
+ 
+}
+
+.abuelo:hover{
+    box-shadow: 2px 5px black;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 300;
+}
+
+.papa{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 2em;
+
+    width: 400px;
+    height: 800px;
+}
+
+h2{
+    padding-top: 0em;
+}
+
+input{
+    width: 30em;
+    height: 20px;
+    border-radius: 0.5em;
+}
+
+.cont{
+    display: flex;
+    width: 100%;
+   
+    justify-content: center;
+}
+
+.button{
+   border: 5px solid green;
+   border-radius: 2em;
+   font-size: 2em;
+    width: 5em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+
+.button:hover{
+    background: lightgreen;
+    box-shadow: 2px 5px green;
+}
+
+.alo{
+ color: blue;
+}
+
+
+.menor{
+    
+    margin-bottom: 20px;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    color: red;
+    font-size: 15px;
+}
+
+
+.cajota{
+    display: flex;
+    width: 20em;
+    
+    justify-content: left;
+    align-items: left
+    ;
+}
+
+.cajita{
+    width: 50px;
+}
+
+
